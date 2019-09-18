@@ -75,31 +75,31 @@ function minimum(array) {
 // Note 2: Selection sort can be implemented using one array. Read the explanation at
 // https://courses.cs.vt.edu/csonline/Algorithms/Lessons/SelectionSort/index.html
 // to see how. This may make more sense to you.
-function removeOnce(array, itemToRemove) {
-    let idx = array.indexOf(itemToRemove)
-    if (idx !== -1) {
-        array.sp
-    }
-}
+// function removeOnce(array, itemToRemove) {
+//     let idx = array.indexOf(itemToRemove)
+//     if (idx !== -1) {
+//         array.sp
+//     }
+// }
 
 
 
 
 
-function selectionSort(array) {
-    let arrayCopy = array.slice
-    let sortedArray = []
+// function selectionSort(array) {
+//     let arrayCopy = array.slice
+//     let sortedArray = []
 
-    while (arrayCopy.length > 0) {
-        let minVal = minimum(arrayCopy)
-        sortedArray.push(minVal)
+//     while (arrayCopy.length > 0) {
+//         let minVal = minimum(arrayCopy)
+//         sortedArray.push(minVal)
 
-        let minVal = arrayCopy.indexOf(minVal)
-        arrayCopy.splice(minValIdx, 1)
+//         let minVal = arrayCopy.indexOf(minVal)
+//         arrayCopy.splice(minValIdx, 1)
 
-    }
-    return sortedArray
-}
+//     }
+//     return sortedArray
+// }
 
 // 7. Create a function called `textList` that takes an array and joins its elements
 // into a string separated by commas.
